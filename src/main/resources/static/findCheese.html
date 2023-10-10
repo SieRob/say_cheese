@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cheese</title>
+  <script defer src="js/cheeseName.js" type="module"></script>
+  <link href="images/saycheese.ico" rel="icon" type="images/x-icon">
+  <link href="css/cheese.css" rel="stylesheet">
+</head>
+<body>
+  <a href="index.html">Home</a>
+  <div>
+    <h1>Find a cheese by a word in the name</h1>
+    <label>Word:
+      <span id="naamFout" class="fout" hidden>Verplicht</span>
+      <input id="woord" required autofocus>
+    </label>
+    <button id="zoek">Search</button>
+  </div>
+  <div id="select" >
+    <table id="naamTable" hidden>
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Country</th>
+        <th>Colour</th>
+        <th>Detail</th>
+      </tr>
+      </thead>
+      <tbody id="tableBody">
+      <!--tr>
+          <td>Maasdam</td>
+          <td>Netherlands</td>
+          <td>pale yellow</td>
+          <td><a href="details.html">detail</a></td>
+      </tr-->
+      </tbody>
+    </table>
+  </div>
+  <div id="storing" class="fout" hidden>Storing, contacteer helpdesk.</div> </body>
+</body>
+</html>
